@@ -16,7 +16,8 @@ git config --global user.email "email usata su git"
 [Scarica da qui](https://cli.github.com/)
 
 Poi da terminale: 
-`gh auth login`
+`git auth login`
+##### Puoi saltare questo passaggio, Github ti chiede in automatico di identificarti quando serve
 
 Scegliere:
 
@@ -26,7 +27,7 @@ Login with browser
 
 Alla fine verificare:
 
-` gh auth status `
+` git auth status `
 
 ## Scaricare una repository esistente
 
@@ -94,14 +95,10 @@ Se lavora su un branch specifico:
 `git pull origin nome-branch`
 
 ## Vuoi creare una repo da terminale?
-Prima accedi: 
-
-`gh auth login`
-
-Poi può creare una repo privata e clonarla subito:
+Prima accedi, poi può creare una repo privata e clonarla subito:
 
 ```
-gh repo create FG-stage/bla_bla --private --clone
+git repo create FG-stage/bla_bla --private --clone
 ```
 
 Poi entra nella cartella:
